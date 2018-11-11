@@ -23,3 +23,24 @@ h1{
 .secondary-container h1{
     color: antiquewhite;
 }
+
+.input-div{
+    display: block;
+    margin: 2vh 2vh;
+}
+
+.form-button{
+    font-size: 1vw;
+    padding: 1vw;
+    border-radius: 10%;
+    background-color: aqua;
+    color: rgba(243, 1, 252, 0.87);
+    border: 0.5vh solid blueviolet;
+    transition-duration: 500ms;
+}
+
+.form-button:hover{
+    transition-duration: 500ms;
+    background-color: rgb(5, 172, 61);
+    color: rgba(242, 242, 247, 0.87);
+}

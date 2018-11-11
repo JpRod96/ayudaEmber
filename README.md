@@ -29,4 +29,5 @@ Espero todo haya salido bien y estes viendo la pequeña pagina que acabo de hace
 
 7.  `ember serve` ahora si ejecuta esto y ve a [http://localhost:4200](http://localhost:4200) 
 
-Explora un poco la pagina, algunas consideraciones es que el archivo app.css afecta a todas las paginas, de seguro se puede mejorar eso, pero por ahora menjalo asi, todos los archivos hbs representan a los html, pero como habras visto no tienen html ni body ni nada, eso es porque esto es un framework, asi que solo pon los elementos que pondrias en un body normal y usa el app.css para embellecerlo....mucha suerte...
+Explora un poco la pagina, algunas consideraciones es que el archivo app.css afecta a todas las paginas, de seguro se puede mejorar eso, pero por ahora menjalo asi, todos los archivos hbs representan a los html, pero como habras visto no tienen html ni body ni nada, eso es porque esto es un framework, asi que solo pon los elementos que pondrias en un body normal y usa el app.css para embellecerlo, entonces empieza con un nuevo `ember generate route registro-docente` por ejemplo y basate en lo que ya hiciste hasta ahora, ah y otr cosa te dira que hay errores de identacion pero no les hagas caso.
+....mucha suerte...
