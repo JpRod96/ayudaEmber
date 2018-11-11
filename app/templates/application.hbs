@@ -1,5 +1,10 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<div class="main-container">
+    <h1>Este titulo deberia aparecer en todas las paginas</h1>
+    <a href="/registro-estudiante">Estudiante</a>
+    <div class="description">
+        <p>Cuando agregues mas paginas con el comando route, agrega su enlace aqui, para hacerlo un poco mas usable</p>
+        <p>Por ejemplo si haces ember generate route registro-docente</p>
+        <p>Pega aqui un nuevo tag a, como el que esta aqui arriba y en el href pon: '/registro-docente'</p>
+    </div>
+    {{outlet}}
+</div>
